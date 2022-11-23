@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PAGINA WEB</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Más información</a>
+        </nav>
+
+        <section class="textos-header">
+            <h1>LA ROBOTICA</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: rgb(39, 3, 201);"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/ilustracion2.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>¿Que es la robotica?</h3>
+                    <p> Se podría definir robótica como una ciencia que aglutina varias disciplinas o ramas de la tecnología con el objetivo de diseñar máquinas programadas para realizar tareas de forma automática o para simular el comportamiento humano o animal.</p>
+                    <h3><span>2</span>¿para que sirve?</h3>
+                    <p>Fomentan el desarrollo del pensamiento lógico, de la intuición científica, de la creatividad… Desarrolla sus habilidades para la resolución de problemas y para la investigación. Desarrolla sus habilidades para la lectura y la escritura. Facilita que la consecución de metas y objetivos se convierta en un hábito.</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">ROBOTICA</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/img1.jpg" width="800px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/img2.jpg" width="800px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/img3.jpg" width="800px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/img4.jpg" width="800px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/img5.jpg" width="950px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/img6.jpg" width="800px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/img7.jpg" width="800px" height="450px">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt=""
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <center>
+                <section class="textos-header">
+                  <h1>Video Explicativo Sobre la Robotica</h1>
+                  </section>
+                      <video controls="">
+                         <source src="prueba.mp4">
+                         </video> 
+            </center>
+        
+</body>
+
+</html>
